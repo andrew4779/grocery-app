@@ -25,6 +25,11 @@ ADMIN or USER. The ADMIN has all the rights in the software including updating t
 
 •	Search: This module helps the customer to ease his search based on his budget or interest. The search can be done on different categories and subcategories like category , subcategory , name, price etc
 
+## Features
+
+ Login and Logout,
+ Contact Us Tab, Payment Option, Add to Cart, User Login, Admin Login, Registration Form, View Cart, View Booking, Change password, Send Feedback, View Profile, View Booking And Many More . 
+
 
 ## Technologies that i used
 
@@ -32,7 +37,8 @@ ADMIN or USER. The ADMIN has all the rights in the software including updating t
 - Backend - Python
 - Database - MySQL
 
-## username - admin
+## For Login In Admin Account 
+## username - admin 
 ## password - admin
 ## Screenshots 1
 
@@ -53,6 +59,26 @@ ADMIN or USER. The ADMIN has all the rights in the software including updating t
 ## Screenshots 6
 
 ![App Screenshot](https://github.com/sourabhdaura/ecommerce.github.io/blob/main/12.png?raw=true)
+
+## Screenshots 7
+
+![App Screenshot](https://github.com/sourabhdaura/ecommerce.github.io/blob/main/15.png?raw=true)
+
+## Screenshots 8
+
+![App Screenshot](https://github.com/sourabhdaura/ecommerce.github.io/blob/main/17.png?raw=true)
+
+## Screenshots 9
+
+![App Screenshot](https://github.com/sourabhdaura/ecommerce.github.io/blob/main/4.png?raw=true)
+
+## Screenshots 10
+
+![App Screenshot](https://github.com/sourabhdaura/ecommerce.github.io/blob/main/6.png?raw=true)
+
+## Screenshots 11
+
+![App Screenshot](https://github.com/sourabhdaura/ecommerce.github.io/blob/main/5.png?raw=true)
 
 ## You can check more Screenshot in Project Report and also uploaded .png (Screenshot files)
 
