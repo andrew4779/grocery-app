@@ -33,8 +33,8 @@ ADMIN or USER. The ADMIN has all the rights in the software including updating t
 
 ## Technologies that i used
 
-- Forntend - HTML (Django) ,CSS,JS
-- Backend - Python
+- Forntend - HTML, CSS, JS
+- Backend - Python (Django)
 - Database - MySQL
 
 ## For Login In Admin Account 
