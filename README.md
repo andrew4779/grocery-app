@@ -33,8 +33,8 @@ ADMIN or USER. The ADMIN has all the rights in the software including updating t
 
 ## Technologies that i used
 
-- Forntend - HTML, CSS, JS
-- Backend - Python (Django)
+- Forntend - HTML (Django) ,CSS,JS
+- Backend - Python
 - Database - MySQL
 
 ## For Login In Admin Account 
@@ -48,39 +48,46 @@ ADMIN or USER. The ADMIN has all the rights in the software including updating t
 
 ![App Screenshot](https://github.com/sourabhdaura/ecommerce.github.io/blob/main/2.png?raw=true)
 
-## Screenshots 4
 
-![App Screenshot](https://github.com/sourabhdaura/ecommerce.github.io/blob/main/8.png?raw=true)
-
-## Screenshots 5
+## Screenshots 3
 
 ![App Screenshot](https://github.com/sourabhdaura/ecommerce.github.io/blob/main/3.png?raw=true)
 
-## Screenshots 6
+## Screenshots 4
 
 ![App Screenshot](https://github.com/sourabhdaura/ecommerce.github.io/blob/main/12.png?raw=true)
 
-## Screenshots 7
+## Screenshots 5
 
 ![App Screenshot](https://github.com/sourabhdaura/ecommerce.github.io/blob/main/15.png?raw=true)
 
-## Screenshots 8
+## Screenshots 6
 
 ![App Screenshot](https://github.com/sourabhdaura/ecommerce.github.io/blob/main/17.png?raw=true)
 
-## Screenshots 9
+## Screenshots 7
 
 ![App Screenshot](https://github.com/sourabhdaura/ecommerce.github.io/blob/main/4.png?raw=true)
 
-## Screenshots 10
+## Screenshots 8
 
 ![App Screenshot](https://github.com/sourabhdaura/ecommerce.github.io/blob/main/6.png?raw=true)
 
-## Screenshots 11
+## Screenshots 9
 
 ![App Screenshot](https://github.com/sourabhdaura/ecommerce.github.io/blob/main/5.png?raw=true)
 
+## Screenshots 10
+
+![App Screenshot](https://github.com/sourabhdaura/ecommerce.github.io/blob/main/8.png?raw=true)
+
+## Screenshots 11
+
+![App Screenshot](https://github.com/sourabhdaura/ecommerce.github.io/blob/main/17.png?raw=true)
+
 ## You can check more Screenshot in Project Report and also uploaded .png (Screenshot files)
+
+Youtube Project Demo Video Link - https://youtu.be/8doMHiXLWEI
 
 
 ## Need Software to run the Project
