@@ -87,8 +87,6 @@ ADMIN or USER. The ADMIN has all the rights in the software including updating t
 
 ## You can check more Screenshot in Project Report and also uploaded .png (Screenshot files)
 
-Youtube Project Demo Video Link - https://youtu.be/8doMHiXLWEI
-
 
 ## Need Software to run the Project
 install Python,
@@ -99,13 +97,4 @@ install pycharm
 
 ## Please Check Project Report For more Details
 
-## All Credits Goes to Sourabh Daura (sourabh.daura@gmail.com)
-
-
-
-
-
-
-
-
-
+## All Credits Goes to Sourabh Daura (andrewkimani02@gmail.com)

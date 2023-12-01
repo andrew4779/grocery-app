@@ -62,5 +62,3 @@ class Send_Feedback(models.Model):
 
     def __str__(self):
         return self.profile.user.username
-
-
