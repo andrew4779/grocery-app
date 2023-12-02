@@ -51,7 +51,7 @@
 
 
 #myTable td {
-  text-align: left;
+  text-align: end;
   padding: 12px;
   background-color: white;
 }
@@ -69,7 +69,8 @@
   border: none;
   color: white;
   padding: 10px;
-  text-align: center;
+  /* text-align: center; */
+  text-align: end;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
@@ -89,27 +90,6 @@
   
   
   <style>
-/* width */
-::-webkit-scrollbar {
-  width: 20px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 10px;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: red; 
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #b30000; 
-}
 </style>
   
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -205,7 +185,6 @@
       <a href="{% url 'profile' %}"><h5 class="nav-link" style="color:red"><ion-icon style="margin-right:4px;color:white" name="person-circle-sharp"></ion-icon>Welcome {{request.user.username}}</h5>
       </a></li>
     {% else %}
-
     <li class="nav-item">
       <h5  class="nav-link" style="color:red"><ion-icon style="margin-right:4px;color:white" name="person-circle-sharp"></ion-icon>Welcome {{request.user.username}}</h5>
     </li>
@@ -237,6 +216,7 @@
 {% block body %}
 
 {% endblock %}
+
 
 
 </body></html>
