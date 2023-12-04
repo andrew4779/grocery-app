@@ -95,7 +95,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body style="background-color:white">
-<nav class="navbar navbar-expand-sm" style="background-color:Darkgreen">
+<nav class="navbar navbar-expand-sm" style="background-color:rgb(42, 42, 48)">
   <!-- Brand -->
   <a class="navbar-brand" href="#" style="color:White">Online Grocery Shop</a>
 
@@ -104,23 +104,23 @@
   <ul class="navbar-nav">
     {% if request.user.is_staff %}
     <li class="nav-item">
-      <a class="nav-link" href="{% url 'admin_home' %}" style="color:white"><ion-icon style="margin-right:2px" name="home-sharp"></ion-icon>Home</a>
+      <a class="nav-link" href="{% url 'admin_home' %}" style="color:white">Home</a>
     </li>
 
     <li class="nav-item">
-      <a class="nav-link" href="{% url 'view_user' %}" style="color:white"><ion-icon style="margin-right:2px" name="people"></ion-icon>View User</a>
+      <a class="nav-link" href="{% url 'view_user' %}" style="color:white">View User</a>
     </li>
       <li class="nav-item">
-      <a class="nav-link" href="{% url 'admin_viewBooking' %}" style="color:white"><ion-icon style="margin-right:2px" name="logo-bitcoin"></ion-icon>View Booking</a>
+      <a class="nav-link" href="{% url 'admin_viewBooking' %}" style="color:white">View Booking</a>
     </li>
 <li class="nav-item">
-      <a class="nav-link" href="{% url 'view_feedback' %}" style="color:white"><ion-icon style="margin-right:2px" name="chatbubbles"></ion-icon>View Feedback</a>
+      <a class="nav-link" href="{% url 'view_feedback' %}" style="color:white">View Feedback</a>
     </li>
 
-  </li>
+  </li> 
 
     <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:white"><ion-icon style="margin-right:4px" name="albums"></ion-icon>Product</a>
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:white">Product</a>
     <div class="dropdown-menu">
       <a class="dropdown-item" href="{% url 'add_product' %}">Add Product</a>
       <a class="dropdown-item" href="{% url 'admin_view_product' %}">View Product</a>
@@ -128,7 +128,7 @@
   </li>
 
     <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:white"><ion-icon style="margin-right:4px" name="newspaper-sharp"></ion-icon>Category</a>
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:white">Category</a>
     <div class="dropdown-menu">
       <a class="dropdown-item" href="{% url 'add_categary' %}">Add Category</a>
       <a class="dropdown-item" href="{% url 'view_categary' %}">View Category</a>
@@ -140,37 +140,37 @@
     {% if request.user.username %}
     {% if not request.user.is_staff %}
     <li class="nav-item">
-      <a class="nav-link" href="{% url 'home' %}" style="color:white"><ion-icon style="margin-right:2px" name="home-sharp"></ion-icon>Home</a>
+      <a class="nav-link" href="{% url 'home' %}" style="color:white">Home</a>
     </li>
 
     <li class="nav-item">
-      <a class="nav-link" href="{% url 'view_booking' %}" style="color:white"><ion-icon style="margin-right:2px" name="aperture"></ion-icon>View Booking</a>
+      <a class="nav-link" href="{% url 'view_booking' %}" style="color:white">View Booking</a>
     </li>
 
     <li class="nav-item">
-      <a class="nav-link" href="{% url 'send_feedback' request.user.id %}" style="color:white"><ion-icon style="margin-right:2px" name="send"></ion-icon>Send Feedback</a>
+      <a class="nav-link" href="{% url 'send_feedback' request.user.id %}" style="color:white">Send Feedback</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="{% url 'view_product' 0 %}" style="color:white"><ion-icon style="margin-right:2px" name="eye"></ion-icon>View Product</a>
+      <a class="nav-link" href="{% url 'view_product' 0 %}" style="color:white">View Product</a>
     </li>
 
     <li class="nav-item">
-      <a class="nav-link" href="{% url 'change_password' %}" style="color:white"><ion-icon style="margin-right:2px" name="document-text-sharp"></ion-icon>Change Password</a>
+      <a class="nav-link" href="{% url 'change_password' %}" style="color:white">Change Password</a>
     </li>
 
     {% endif %}
     {% else %}
 
     <li class="nav-item">
-      <a class="nav-link" href="{% url 'home'  %}" style="color:white"><ion-icon style="margin-right:2px" name="home-sharp"></ion-icon>Home</a>
+      <a class="nav-link" href="{% url 'home'  %}" style="color:white">Home</a>
     </li>
 
     <li class="nav-item">
-      <a class="nav-link" href="{% url 'about' %}" style="color:white"><ion-icon style="margin-right:2px" name="briefcase-sharp"></ion-icon>About</a>
+      <a class="nav-link" href="{% url 'about' %}" style="color:white">About</a>
     </li>
 
     <li class="nav-item">
-      <a class="nav-link" href="{% url 'contact' %}" style="color:white"><ion-icon style="margin-right:2px" name="phone-portrait-sharp"></ion-icon>Contact</a>
+      <a class="nav-link" href="{% url 'contact' %}" style="color:white">Contact</a>
     </li>
     {% endif %}
 
@@ -178,7 +178,7 @@
 
 
     {% if request.user.is_authenticated %}
-    <a class="nav-link" href="{% url 'logout' %}" style="color:white"><ion-icon style="margin-right:2px" name="power-sharp"></ion-icon>Logout</a>
+    <a class="nav-link" href="{% url 'logout' %}" style="color:white">Logout</a>
     </li>
     {% if not request.user.is_staff %}
     <li class="nav-item">
@@ -191,10 +191,10 @@
     {% endif %}
         {% else %}
     <li class="nav-item">
-      <a class="nav-link" href="{% url 'login' %}" style="color:white;text-align:right"><ion-icon style="margin-right:2px" name="log-in-sharp"></ion-icon>User Login</a>
+      <a class="nav-link" href="{% url 'login' %}" style="color:white;text-align:right">User Login</a>
     </li>
       <li class="nav-item">
-            <a class="nav-link" href="{% url 'login_admin' %}" style="color:white;text-align:right"><ion-icon style="margin-right:2px" name="log-in-sharp"></ion-icon>Admin Login</a>
+            <a class="nav-link" href="{% url 'login_admin' %}" style="color:white;text-align:right">Admin Login</a>
       </li>
 
     {% endif %}
