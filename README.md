@@ -97,4 +97,4 @@ install pycharm
 
 ## Please Check Project Report For more Details
 
-## All Credits Goes to Sourabh Daura (andrewkimani02@gmail.com)
+## All Credits Goes to Andrew (andrewkimani02@gmail.com)
